@@ -1,0 +1,143 @@
+@font-face {font-family: "AlmaqW01-Refined"; src: url("//db.onlinewebfonts.com/t/9126c154a82d08fe6124045ce0fc61d9.eot"); src: url("//db.onlinewebfonts.com/t/9126c154a82d08fe6124045ce0fc61d9.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/9126c154a82d08fe6124045ce0fc61d9.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/9126c154a82d08fe6124045ce0fc61d9.woff") format("woff"), url("//db.onlinewebfonts.com/t/9126c154a82d08fe6124045ce0fc61d9.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/9126c154a82d08fe6124045ce0fc61d9.svg#AlmaqW01-Refined") format("svg"); }
+
+html, body {
+    font-family: 'AlmaqW01-Refined';
+}
+
+.flex {
+    display: flex !important;
+    flex-wrap: wrap !important;
+}
+  
+.bg-blue {
+    background-color: #1f6b82 !important;
+  }
+  
+  .bg-auburn {
+    background-color: #a51e22 !important;
+  }
+  
+  .bg-black {
+    background-color: #131419;
+  }
+  
+  .text-blue {
+    color: #1f6b82 !important;
+  }
+  
+  .text-auburn {
+    color: #a51e22
+  }
+  
+  .text-black {
+    color: #111111;
+  }
+
+.navLinkText {
+    color: #1f6b82 !important;
+}
+
+.navLinkText:hover {
+    color: #fff !important;
+    background-color: #1f6b82 !important;
+}
+
+nav {
+    min-height: 192px !important;
+}
+  
+.brand-logo>img {
+    transform: translateY(-96px);
+}
+
+.home-page nav {
+        background-color: rgba(0, 0, 0, 0);
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0), 0 3px 1px -2px rgba(0,0,0,0), 0 1px 5px 0 rgba(0,0,0,0);
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0), 0 3px 1px -2px rgba(0,0,0,0), 0 1px 5px 0 rgba(0,0,0,0);
+}
+
+.intro {
+    background-image: url("https://images.unsplash.com/photo-1508995561846-e758be1cf510?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80");
+    background-color: #cccccc;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.page-intro {
+  background-image: url("https://images.unsplash.com/photo-1485670046541-0a355549f9a9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+  background-color: #cccccc;
+  height: 75vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+#apply-now-btn {
+    border: 2px solid #fff !important;
+}
+
+#apply-now-btn:hover {
+    background-color: #fff !important;
+    color: #000 !important;
+}
+
+.intro-text {
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+.parallax-container {
+    height: 600px;
+}
+
+.counterNumber {
+    font-size: 7.5vh;
+}
+
+.page nav {
+    /* background-color: #fff !important; */
+    background-color: rgba(0, 0, 0, 0);
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0), 0 3px 1px -2px rgba(0,0,0,0), 0 1px 5px 0 rgba(0,0,0,0);
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0), 0 3px 1px -2px rgba(0,0,0,0), 0 1px 5px 0 rgba(0,0,0,0);
+}
+
+/* .page nav ul li a{
+    color: #1f6b82 !important;
+} */
+
+.footer-buttons a{
+    color: #fff
+  }
+  
+  .footer-buttons a:hover {
+    background-color: #fff;
+    color: #1f6b82
+  }
+
+  .btn {
+    background: #1f6b82;
+  }
+  
+  .btn-floating {
+    background-color: #1f6b82;
+  }
+  
+  .btn:hover {
+    background-color: #111111 ;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  .contact-btn a {
+    background-color: #1f6b82;
+  }
+
